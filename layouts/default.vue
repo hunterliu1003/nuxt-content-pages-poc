@@ -1,10 +1,17 @@
 <template>
-  <div>
-    <nuxt />
+  <div style="text-align: center;">
+    <n-link style="padding: 10px 30px;" to="/">/</n-link>
+    <n-link style="padding: 10px 30px;" to="/關於我"
+      >關於我 <-- click me</n-link
+    >
+    <nuxt style="margin: 50px;" />
   </div>
 </template>
 
 <style>
+body {
+  padding: 50px;
+}
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
